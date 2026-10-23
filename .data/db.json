@@ -1,0 +1,529 @@
+{
+  "users": [
+    {
+      "id": "usr_rohit_patil",
+      "fullName": "Om Jaysingpure",
+      "age": 19,
+      "address": "Plot 42, Shivshankar Nagar, Baramati Road",
+      "state": "Maharashtra",
+      "district": "Yavatmal",
+      "villageCity": "Yavatmal",
+      "phoneNumber": "8087741850",
+      "farmAreaAcres": 4.5,
+      "role": "farmer",
+      "email": "rohit.patil@example.com",
+      "passwordHash": "farmer123",
+      "isEmailVerified": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-23T11:20:17.628Z",
+      "updatedAt": "2026-10-23T11:34:33.845Z"
+    },
+    {
+      "id": "usr_owner_ramesh",
+      "fullName": "Rameshwar Pawar",
+      "age": 46,
+      "address": "Near Kisan Seva Kendra, Indapur",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "villageCity": "Indapur",
+      "phoneNumber": "+919850123456",
+      "farmAreaAcres": 12,
+      "role": "owner",
+      "email": "ramesh.pawar@example.com",
+      "passwordHash": "owner123",
+      "isEmailVerified": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-23T11:20:17.628Z",
+      "updatedAt": "2026-10-23T11:20:17.628Z"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "eq_1",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Rameshwar Pawar",
+      "ownerPhone": "+919850123456",
+      "title": "Tractor (45 HP)",
+      "category": "Tractor",
+      "powerHp": 45,
+      "pricePerDay": 1200,
+      "state": "Maharashtra",
+      "district": "Pune",
+      "village": "Baramati",
+      "distanceKm": 12,
+      "isAvailable": true,
+      "rating": 4.8,
+      "reviewsCount": 32,
+      "imageUrl": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=600&auto=format&fit=crop&q=80",
+      "description": "Reliable 45 HP 4-wheel drive tractor with power steering and dual clutch. Equipped with rotavator attachment point.",
+      "specs": {
+        "Fuel Type": "Diesel",
+        "Horsepower": "45 HP",
+        "Lifting Capacity": "1800 kg",
+        "Transmission": "8 Forward + 2 Reverse"
+      },
+      "createdAt": "2026-10-23T11:20:17.628Z"
+    },
+    {
+      "id": "eq_2",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Rameshwar Pawar",
+      "ownerPhone": "+919850123456",
+      "title": "Rotavator",
+      "category": "Rotavator",
+      "pricePerDay": 800,
+      "state": "Maharashtra",
+      "district": "Pune",
+      "village": "Daund",
+      "distanceKm": 15,
+      "isAvailable": true,
+      "rating": 4.6,
+      "reviewsCount": 18,
+      "imageUrl": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=600&auto=format&fit=crop&q=80",
+      "description": "Heavy duty 6 feet multi-speed rotary tiller rotavator. Ideal for soil preparation, weed removal, and seedbed levelling.",
+      "specs": {
+        "Blades": "48 L-type",
+        "Working Width": "180 cm",
+        "Required HP": "40-50 HP",
+        "Gear Drive": "Side gear drive"
+      },
+      "createdAt": "2026-10-23T11:20:17.628Z"
+    },
+    {
+      "id": "eq_3",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Sunil Jagtap",
+      "ownerPhone": "+919876543210",
+      "title": "Harvester",
+      "category": "Harvester",
+      "powerHp": 101,
+      "pricePerDay": 3500,
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "village": "Niphad",
+      "distanceKm": 48,
+      "isAvailable": true,
+      "rating": 4.7,
+      "reviewsCount": 24,
+      "imageUrl": "https://images.unsplash.com/photo-1595878715977-2e8f8df18ea8?w=600&auto=format&fit=crop&q=80",
+      "description": "Multi-crop combine harvester suitable for wheat, paddy, soybean, and gram. Minimal grain loss with high throughput.",
+      "specs": {
+        "Cutter Bar": "14 feet",
+        "Engine": "101 HP Turbo",
+        "Grain Tank": "2400 Litres",
+        "Cleaning System": "Adjustable sieve"
+      },
+      "createdAt": "2026-10-23T11:20:17.628Z"
+    },
+    {
+      "id": "eq_4",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Anil Deshmukh",
+      "ownerPhone": "+919811223344",
+      "title": "Seed Drill",
+      "category": "Seed Drill",
+      "pricePerDay": 900,
+      "state": "Maharashtra",
+      "district": "Satara",
+      "village": "Karad",
+      "distanceKm": 65,
+      "isAvailable": true,
+      "rating": 4.5,
+      "reviewsCount": 16,
+      "imageUrl": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&auto=format&fit=crop&q=80",
+      "description": "Automatic seed cum fertilizer drill with 9 tynes. Ensures uniform spacing, precise seed placement and optimal fertilizer depth.",
+      "specs": {
+        "Tynes": "9",
+        "Row Spacing": "Adjustable 7-9 inches",
+        "Hitch": "3-point linkage",
+        "Material": "Heavy gauge steel"
+      },
+      "createdAt": "2026-10-23T11:20:17.628Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk_1792756054767",
+      "equipmentId": "eq_1",
+      "equipmentTitle": "Tractor (45 HP)",
+      "equipmentCategory": "Tractor",
+      "equipmentImage": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=600&auto=format&fit=crop&q=80",
+      "renterId": "usr_rohit_patil",
+      "renterName": "Rohit Patil",
+      "renterPhone": "+919876543210",
+      "renterDistrict": "Pune",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Rameshwar Pawar",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-03",
+      "durationDays": 3,
+      "dailyRate": 1200,
+      "totalCost": 3600,
+      "status": "approved",
+      "notes": "Field plowing",
+      "createdAt": "2026-10-23T11:47:34.767Z",
+      "updatedAt": "2026-10-23T11:47:34.775Z"
+    },
+    {
+      "id": "bk_1792756027333",
+      "equipmentId": "eq_1",
+      "equipmentTitle": "Tractor (45 HP)",
+      "equipmentCategory": "Tractor",
+      "equipmentImage": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=600&auto=format&fit=crop&q=80",
+      "renterId": "usr_rohit_patil",
+      "renterName": "Rohit Patil",
+      "renterPhone": "+919876543210",
+      "renterDistrict": "Pune",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Rameshwar Pawar",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "durationDays": 3,
+      "dailyRate": 1200,
+      "totalCost": 3600,
+      "status": "approved",
+      "notes": "Deep rotavator tilling for winter wheat crop",
+      "createdAt": "2026-10-23T11:47:07.333Z",
+      "updatedAt": "2026-10-23T11:47:07.340Z"
+    },
+    {
+      "id": "bk_1792755713415",
+      "equipmentId": "eq_1",
+      "equipmentTitle": "Tractor (45 HP)",
+      "equipmentCategory": "Tractor",
+      "equipmentImage": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=600&auto=format&fit=crop&q=80",
+      "renterId": "usr_rohit_patil",
+      "renterName": "Om Jaysingpure",
+      "renterPhone": "8087741850",
+      "renterDistrict": "Yavatmal",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Rameshwar Pawar",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "durationDays": 1,
+      "dailyRate": 1200,
+      "totalCost": 1200,
+      "status": "cancelled",
+      "notes": "",
+      "createdAt": "2026-10-23T11:41:53.415Z",
+      "updatedAt": "2026-10-23T11:43:38.181Z"
+    },
+    {
+      "id": "bk_101",
+      "equipmentId": "eq_2",
+      "equipmentTitle": "Rotavator",
+      "equipmentCategory": "Rotavator",
+      "equipmentImage": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=600&auto=format&fit=crop&q=80",
+      "renterId": "usr_rohit_patil",
+      "renterName": "Rohit Patil",
+      "renterPhone": "+919822334455",
+      "renterDistrict": "Pune",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Rameshwar Pawar",
+      "startDate": "2025-04-25",
+      "endDate": "2025-04-26",
+      "durationDays": 2,
+      "dailyRate": 800,
+      "totalCost": 1600,
+      "status": "approved",
+      "notes": "Soil preparation for sugarcane planting",
+      "createdAt": "2026-10-23T09:20:17.628Z",
+      "updatedAt": "2026-10-23T09:20:17.628Z"
+    },
+    {
+      "id": "bk_102",
+      "equipmentId": "eq_1",
+      "equipmentTitle": "Tractor (45 HP)",
+      "equipmentCategory": "Tractor",
+      "equipmentImage": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=600&auto=format&fit=crop&q=80",
+      "renterId": "usr_rohit_patil",
+      "renterName": "Rohit Patil",
+      "renterPhone": "+919822334455",
+      "renterDistrict": "Pune",
+      "ownerId": "usr_owner_ramesh",
+      "ownerName": "Rameshwar Pawar",
+      "startDate": "2025-05-02",
+      "endDate": "2025-05-03",
+      "durationDays": 2,
+      "dailyRate": 1200,
+      "totalCost": 2400,
+      "status": "cancelled",
+      "notes": "Deep plowing after seasonal rains",
+      "createdAt": "2026-10-23T06:20:17.628Z",
+      "updatedAt": "2026-10-23T11:43:42.117Z"
+    }
+  ],
+  "scans": [
+    {
+      "id": "scan_1792756574853",
+      "userId": "usr_rohit_patil",
+      "userName": "Rohit Patil",
+      "cropName": "Cotton",
+      "healthStatus": "Moderate",
+      "diseaseDetected": "Bacterial Blight",
+      "confidenceScore": 84,
+      "severity": "Moderate",
+      "symptoms": [
+        "Angular water-soaked leaf spots"
+      ],
+      "recommendations": [
+        "Spray Streptocycline 100 ppm + Copper oxychloride"
+      ],
+      "fertilizerAdvice": [
+        "Maintain balanced potash"
+      ],
+      "wateringAdvice": [
+        "Avoid stagnant water"
+      ],
+      "scannedAt": "2026-10-23T11:56:14.853Z",
+      "userObservations": [
+        {
+          "id": "obs_1792756574858",
+          "date": "2026-10-23T11:56:14.858Z",
+          "note": "Sprayed copper oxychloride yesterday morning; lesions halted and no new leaf drops."
+        }
+      ]
+    },
+    {
+      "id": "scan_1",
+      "userId": "usr_rohit_patil",
+      "userName": "Rohit Patil",
+      "cropName": "Tomato",
+      "healthStatus": "Healthy",
+      "diseaseDetected": "None (Healthy Foliage)",
+      "confidenceScore": 96,
+      "symptoms": [
+        "Lush green leaves",
+        "Consistent leaf thickness",
+        "No necrosis or chlorosis observed"
+      ],
+      "recommendations": [
+        "Maintain current drip irrigation schedule (2 hours every 2 days)",
+        "Ensure stakes or trellises are firm as fruit formation begins",
+        "Inspect leaf undersides weekly for early aphid or whitefly signs"
+      ],
+      "fertilizerAdvice": [
+        "Apply 19:19:19 NPK foliar spray @ 5g/L once every 14 days",
+        "Add calcium nitrate to prevent blossom end rot during fruiting"
+      ],
+      "wateringAdvice": [
+        "Moisture target 65-75%. Avoid water stagnation around stem base."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=600&auto=format&fit=crop&q=80",
+      "scannedAt": "2026-10-23T09:20:17.628Z"
+    }
+  ],
+  "soilReports": [
+    {
+      "id": "soil_1",
+      "userId": "usr_rohit_patil",
+      "cropName": "Sugarcane & Wheat",
+      "soilType": "Medium Black Soil (Vertisol)",
+      "ph": 7.2,
+      "nitrogen": "Medium (280 kg/ha)",
+      "phosphorus": "Low (14 kg/ha)",
+      "potassium": "High (340 kg/ha)",
+      "moisture": "28% (Optimal)",
+      "summary": "Optimal soil pH with balanced moisture. Phosphorus is slightly deficit; recommend single super phosphate supplementation before next sowing.",
+      "recommendations": [
+        "Incorporate 2 tonnes of well-rotted Farm Yard Manure (FYM) per acre",
+        "Apply Single Super Phosphate (SSP) at 50 kg/acre at sowing",
+        "Avoid excessive urea top-dressing to prevent leaf scorch"
+      ],
+      "createdAt": "2026-10-23T06:20:17.628Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1792756574853",
+      "userId": "usr_rohit_patil",
+      "title": "Crop Scan Report Saved",
+      "message": "Diagnostic report for Cotton (Bacterial Blight) has been archived.",
+      "type": "scan",
+      "read": false,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1792756054775_app",
+      "userId": "usr_rohit_patil",
+      "title": "Booking Approved! 🎉",
+      "message": "Your booking for Tractor (45 HP) (2026-12-01 to 2026-12-03) was approved by Rameshwar Pawar!",
+      "type": "booking",
+      "read": true,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1792756054767_2",
+      "userId": "usr_rohit_patil",
+      "title": "Booking Request Submitted",
+      "message": "Your booking request for Tractor (45 HP) was submitted to Rameshwar Pawar. Total estimated: ₹3600.",
+      "type": "booking",
+      "read": true,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1792756054767_1",
+      "userId": "usr_owner_ramesh",
+      "title": "Booking Request Received",
+      "message": "Rohit Patil requested Tractor (45 HP) (2026-12-01 to 2026-12-03, 3 days, ₹3600).",
+      "type": "booking",
+      "read": false,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1792756027340",
+      "userId": "usr_rohit_patil",
+      "title": "Booking Approved! 🎉",
+      "message": "Your booking for Tractor (45 HP) (2026-11-10 to 2026-11-12) has been confirmed!",
+      "type": "booking",
+      "read": true,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1792756027338",
+      "userId": "usr_rohit_patil",
+      "title": "Booking Approved! 🎉",
+      "message": "Your booking for Tractor (45 HP) (2026-11-10 to 2026-11-12) has been confirmed!",
+      "type": "booking",
+      "read": true,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1",
+      "userId": "usr_rohit_patil",
+      "title": "Your booking is approved",
+      "message": "Rotavator - Apr 25, 2025. Provider Rameshwar Pawar confirmed your rental.",
+      "type": "booking",
+      "read": true,
+      "timestamp": "2 hours ago"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_rohit_patil",
+      "title": "Soil test report ready",
+      "message": "View your analysis results for Baramati field plot #2.",
+      "type": "soil",
+      "read": true,
+      "timestamp": "5 hours ago"
+    },
+    {
+      "id": "notif_3",
+      "userId": "usr_rohit_patil",
+      "title": "Maintenance reminder",
+      "message": "Tractor inspection due in 7 days. Check oil level and filter cleaning.",
+      "type": "reminder",
+      "read": true,
+      "timestamp": "1 day ago"
+    },
+    {
+      "id": "notif_1792755713415_1",
+      "userId": "usr_owner_ramesh",
+      "title": "New Booking Request",
+      "message": "Om Jaysingpure requested Tractor (45 HP) for 1 days (₹1200).",
+      "type": "booking",
+      "read": false,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1792755713415_2",
+      "userId": "usr_rohit_patil",
+      "title": "Booking Submitted",
+      "message": "Your booking request for Tractor (45 HP) (2026-10-24 to 2026-10-25) was submitted to Rameshwar Pawar.",
+      "type": "booking",
+      "read": true,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1792756027333_1",
+      "userId": "usr_owner_ramesh",
+      "title": "New Booking Request",
+      "message": "Rohit Patil requested Tractor (45 HP) for 3 days (₹3600).",
+      "type": "booking",
+      "read": false,
+      "timestamp": "Just now"
+    },
+    {
+      "id": "notif_1792756027333_2",
+      "userId": "usr_rohit_patil",
+      "title": "Booking Submitted",
+      "message": "Your booking request for Tractor (45 HP) (2026-11-10 to 2026-11-12) was submitted to Rameshwar Pawar.",
+      "type": "booking",
+      "read": true,
+      "timestamp": "Just now"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act_1792756574853",
+      "userId": "usr_rohit_patil",
+      "title": "Plant scan saved",
+      "description": "Cotton - Moderate",
+      "type": "scan",
+      "timestamp": "Just now"
+    },
+    {
+      "id": "act_1792756054767",
+      "userId": "usr_rohit_patil",
+      "title": "Equipment requested",
+      "description": "Tractor (45 HP) - 3 day(s)",
+      "type": "booking",
+      "timestamp": "Just now"
+    },
+    {
+      "id": "act_1792756027333",
+      "userId": "usr_rohit_patil",
+      "title": "Equipment requested",
+      "description": "Tractor (45 HP) - 3 day(s)",
+      "type": "booking",
+      "timestamp": "Just now"
+    },
+    {
+      "id": "act_1792755713415",
+      "userId": "usr_rohit_patil",
+      "title": "Equipment requested",
+      "description": "Tractor (45 HP) - 1 day(s)",
+      "type": "booking",
+      "timestamp": "Just now"
+    },
+    {
+      "id": "act_1",
+      "userId": "usr_rohit_patil",
+      "title": "Plant scan completed",
+      "description": "Tomato - Healthy",
+      "type": "scan",
+      "timestamp": "2 hours ago"
+    },
+    {
+      "id": "act_2",
+      "userId": "usr_rohit_patil",
+      "title": "Equipment booked",
+      "description": "Tractor - 45 HP",
+      "type": "booking",
+      "timestamp": "5 hours ago"
+    },
+    {
+      "id": "act_3",
+      "userId": "usr_rohit_patil",
+      "title": "Fertilizer recommendation",
+      "description": "For Wheat crop",
+      "type": "fertilizer",
+      "timestamp": "1 day ago"
+    },
+    {
+      "id": "act_4",
+      "userId": "usr_rohit_patil",
+      "title": "New message from AI Assistant",
+      "description": "Crop care tips available",
+      "type": "ai",
+      "timestamp": "1 day ago"
+    },
+    {
+      "id": "act_1792756054785",
+      "userId": "usr_owner_ramesh",
+      "title": "Equipment listed",
+      "description": "Temporary Test Harrow added to fleet",
+      "type": "booking",
+      "timestamp": "Just now"
+    }
+  ]
+}
